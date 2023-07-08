@@ -13,7 +13,7 @@ fn exercise1() {
 // Don't modify code in exercise2 function!
 fn exercise2() {
     let s1 = String::from("hello, world");
-    let s2 = s1;
+    let s2 = take_ownership(s1);
 
     println!("{}", s2);
 }
